@@ -1,0 +1,75 @@
+body
+{
+    background-color: #403736;
+    font-family: Arial;
+    color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#canvas
+{
+    /*border: 1px solid red;*/
+    /*cursor: pointer;*/
+    background-color: #F3EFE6;
+    border-radius: 15px;
+    border: 3px solid black;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color:transparent;
+}
+
+/*Estilos Generales*/
+.button {
+    position: relative;
+    top: -180px;
+    left: 400px;
+    background:#7f8c8d;
+    color:#fff;
+    display:inline-block;
+    font-size:1.25em;
+    margin:50px;
+    padding:10px ;
+    text-align:center;
+    width:200px;
+    text-decoration:none;
+    box-shadow:0px 3px 0px #373c3c;
+
+}
+ 
+.button span {
+    margin-right:10px;
+
+}
+ 
+/*Colores*/
+.button.blue {
+    background:#3498db;
+    box-shadow:0px 3px 0px #266792;
+}
+ 
+
+ 
+/*Tamaños*/
+.button.medium {
+    width:350px;
+}
+ 
+
+ 
+.button.radius {
+    border-radius:50px;
+}
+ 
+/*Efectos, Hover*/
+.button:hover {
+    box-shadow:0px 0px 0px;
+    padding-top:7px;
+}
